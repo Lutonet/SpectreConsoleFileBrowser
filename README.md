@@ -4,6 +4,8 @@
 
 ![preview](preview.jpg)
 
+![folder selector](folderSelector.png)
+
 Thank you for your kind interest in this little helper. 
 
 This library provides the functionality of the folder/file selector component for Spectre.Console packate which provides amazing tools for creating modern UI on the terminal 
