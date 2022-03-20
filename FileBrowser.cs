@@ -23,8 +23,6 @@ namespace FileBrowser
         public string SelectFolderText { get; set; } = "Select Folder";
         public string SelectDriveText { get; set; } = "Select Drive";
         public string SelectActualText { get; set; } = "Select Actual Folder";
-        public string ConfirmTextSelectedFolder { get; set; } = "Do you want to select this folder?";
-        public string ConfirmTextSelectedFile { get; set; } = "Do you want to select this file?";
         public string[] Drives { get; set; }
         public string lastFolder { get; set; }
 
