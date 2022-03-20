@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+	  <Authors></Authors>Bohusl avav Parenica
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageId>Lutonet.FileBrowser</PackageId>
+    <Authors>Bohuslav Pařenica</Authors>
+    <Company>Lutonet</Company>
+    <Product>FileBrowser</Product>
+    <Description>File and folder browser for Spectre.Console</Description>
+    <Copyright>MIT License</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Spectre.Console" Version="0.43.1-preview.0.43" />
+    <PackageReference Include="System.Collections" Version="4.3.0" />
+  </ItemGroup>
+
+</Project>
