@@ -2,19 +2,30 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-	  <Authors></Authors>Bohusl avav Parenica
-    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+	  <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <PackageId>Lutonet.FileBrowser</PackageId>
     <Authors>Bohuslav Pařenica</Authors>
     <Company>Lutonet</Company>
     <Product>FileBrowser</Product>
     <Description>File and folder browser for Spectre.Console</Description>
     <Copyright>MIT License</Copyright>
+    <PackageProjectUrl>https://github.com/Lutonet/SpectreConsoleFileBrowser</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/Lutonet/SpectreConsoleFileBrowser</RepositoryUrl>
+    <PackageTags>Spectre.Console; FileSelector; File Browser; File Selector; Folder selector;</PackageTags>
+    <PackageReleaseNotes>First package release - hope someone will find it helpful</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Spectre.Console" Version="0.43.1-preview.0.43" />
     <PackageReference Include="System.Collections" Version="4.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
