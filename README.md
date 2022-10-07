@@ -14,7 +14,7 @@ This library provides the functionality of the folder/file selector component fo
 
 ### Constructor
 
-The class consturctor `Browser()` doesn't take any paramaters.
+The class constructor `Browser()` doesn't take any paramaters.
 
 ### Properties 
 
